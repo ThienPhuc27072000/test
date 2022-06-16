@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.fullWidth {
+  width: calc(var(--vw) * 100);
+}
+
+.fullHeight {
+  height: calc(var(--vh) * 100);
+}
